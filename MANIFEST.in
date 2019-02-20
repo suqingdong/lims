@@ -1,0 +1,3 @@
+include README.rst
+include lims/banner.txt
+include lims/config.ini
