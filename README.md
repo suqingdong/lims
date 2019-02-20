@@ -1,4 +1,4 @@
-# tools to operate lims (http://172.17.8.19/starlims11.novogene/starthtml.lims)
+# toolkits to operate LIMS system
 
 ## login
 - username 转成大写
@@ -8,17 +8,22 @@
 
 ---
 
-## 1 sample
-- 根据分期编号获取样本信息
+## 1 project
+- 查看项目信息
+
+## 2 sample
+- 获取样本信息
+- 获取sample_list(暂时没啥用)
 
 
-## 2 report
+## 3 report
 - 上传报告
-- 首次上传需指定SOP，样本数和数据量
+- 首次上传需指定SOP，样本数和数据量（样本数和数据量默认自动从qcstat.xls中读取）
 
-## 3 check
+## 4 check
 - doublecheck报告
 - 提交或退回
 
-## 4 release
+## 5 release
 - 释放数据
+- 查看释放历史
